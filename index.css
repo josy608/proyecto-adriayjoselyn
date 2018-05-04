@@ -1,5 +1,20 @@
-* { box-sizing: border-box;}
+
 html{
-  font-family: 'open sans',sans-serif;
+  font-family: 'Alfa Slab One', cursive ;
   font-size: 16px;
+}
+
+.menu{
+  width: 3.2rem;
+  height: 2.7rem;
+  background: #2EE3AD;
+  border-radius:0.5rem;
+  position: absolute;
+  top:50%;
+  left: 5%;
+  font-family: sans-serif;
+  font-size: 2rem;
+  color: white;
+  text-align: center;
+  transition: left 0.7s;
 }
