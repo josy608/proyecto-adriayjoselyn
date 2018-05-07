@@ -1,37 +1,41 @@
-.contendor{
+.contenedor{
   width: 560px;
   height: 300px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
-  background: blue;
+  align-items: center;
 
 }
 .note{
   width: 60px;
-  height: 300px;
-  border-radius: 20px;
-  display: inline-block;
-  cursor: pointer;
-  background: #02b65e;
+height: 300px;
+border-radius: 20px;
+display: inline block;
+cursor: pointer;
+background: #02b65e;
 }
 .center{
   text-align: center;
-  width: 560px;
-  height: 300px;
-  margin: 0 auto;
-  background: blue;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
 }
-
 .note{
   width: 60px;
-  height: 300px;
-  border-radius: 20px;
-  display: inline-block;
-  cursor: pointer;
-  background: #02b65e;
+height: 300px;
+border-radius: 20px;
+cursor: pointer;
+background: #02b65e;
 }
-
+.white_bold{
+  font-family: Arial,sans-serif;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  user-select:none;
+}
 .note:nth-child(1){
   background: #02b65e;
   height: 300px;
