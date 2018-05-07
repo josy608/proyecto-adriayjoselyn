@@ -1,4 +1,6 @@
-
+body{
+  background-color: #FFEBCD;
+}
 html{
   font-family: 'Alfa Slab One', cursive ;
   font-size: 16px;
@@ -17,4 +19,43 @@ html{
   color: white;
   text-align: center;
   transition: left 0.7s;
+}
+.checkbox:checked ~ .menu{
+  left: 40%;
+  border-radius: 0 0.5rem 0.5rem 0;s
+}
+.left-panel{
+  width: 40%;
+  height: 100%;
+  background: linear-gradient(#54BBC7, #2EE3AD, #9191F2);
+  position: absolute;
+  top: 0;
+  left: -40%;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  transition: left 0.4s;
+}
+.checkbox:checked ~ .left-panel{
+  left:0;
+}
+
+.checkbox{
+  display: none;
+}
+ul a {
+  color: white;
+  text-decoration: none;
+}
+li{
+  list-style: none;
+  font-size: 2rem;
+  text-align: center;
+  padding: 0 0.5rem;
+  margin: 1rem 0;
+}
+li:hover{
+  color:white;
+  border: solid white;
+  border-width: 0 0.1rem;
 }
