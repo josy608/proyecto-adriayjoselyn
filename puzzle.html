@@ -3,8 +3,18 @@
     <meta charset="UTF-8">
     <title>Puzzle</title>
     <link rel="stylesheet" type="text/css" href="puzzle.css" />
- </head>
- <body>
+    <link rel="stylesheet" type="text/css" href="index.css" />
+     </head>
+ <body  background=img/Fondo_Pokemon.jpg>
+   <input type="checkbox"class="checkbox" id="check">
+   <label class="menu" for="check">||||</label>
+   <div class="left-panel">
+     <ul>
+       <a href="index.html"><li>Home</li></a>
+       <a href=""><li>Serpiente</li></a>
+       <a href="xilofono.html"><li>Xilófono</li></a>
+     </ul>
+   </div>
 <svg width="600" height="600" id="entorno">
 <g id="fondo"><image xlink:href="img/pikachu.png" width="400" height="400" x="200" y="100"></g>
 <g class="padre" id="0"><image xlink:href="img/1.png" class="movil"></g>
@@ -18,7 +28,7 @@
 <g class="padre" id="8"><image xlink:href="img/9.png" class="movil"></g>
 
 </svg>
-<a href="index.html" class="previous round">&#8249;</a>
+
 
 <audio id="win" src="media/win.mp3"></audio>
 <script type="text/javascript" src="puzzle.js"></script>

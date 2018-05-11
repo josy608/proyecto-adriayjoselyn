@@ -22,7 +22,7 @@ html{
 }
 .checkbox:checked ~ .menu{
   left: 40%;
-  border-radius: 0 0.5rem 0.5rem 0;s
+  border-radius: 0 0.5rem 0.5rem 0s;
 }
 .left-panel{
   width: 40%;
